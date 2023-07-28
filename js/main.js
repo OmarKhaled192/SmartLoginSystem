@@ -85,7 +85,7 @@ if (loginBtn) {
             passwordError.classList.add("d-none");
           }, 3000);
         } else {
-          location.href = "../home.html";
+          location.href = "./home.html";
         }
       }
     }
