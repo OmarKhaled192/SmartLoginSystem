@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link href="css/all.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section class="task">
+      <div class="container py-5 d-flex justify-content-center">
+        <div class="box w-75 py-5">
+          <h2 class="text-center h1 text-info">Smart Login System</h2>
+          <div class="form-group d-flex justify-content-center pt-3">
+            <input id="username" type="text" placeholder="Enter your name" class="form-control text-white bg-transparent w-75">
+          </div>
+          <div class="form-group d-flex justify-content-center pt-3">
+            <input id="email" type="text" placeholder="Enter your email" class="form-control text-white bg-transparent w-75">
+          </div>
+          <div class="form-group d-flex justify-content-center py-3">
+            <input id="password" type="password" placeholder="Enter your password"
+              class="form-control text-white bg-transparent w-75">
+          </div>
+          <div id="fillInputsError" class="form-group d-flex justify-content-center d-none">
+            <p class="text-danger">All inputs is required</p>
+          </div>
+          <div id="existEmailError" class="form-group d-flex justify-content-center d-none">
+            <p class="text-danger">email already exists</p>
+          </div>
+          <div id="successReg" class="form-group d-flex justify-content-center d-none">
+            <p class="text-success">Success</p>
+          </div>
+          <div class="form-group d-flex justify-content-center pt-3">
+            <button id="signUpBtn" type="button" class="btn btn-outline-info text-info w-75">Sign Up</button>
+          </div>
+
+
+          <div class="form-group d-flex justify-content-center pt-3 text-white">
+            <span class="d-inline-block px-2">You have an account? </span><a href="index.html"
+              class="text-decoration-none text-white"> Signin</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>
